@@ -18,7 +18,7 @@ const renderGoodsItem = ({title, price, image='images/default.jpg'}) => {
 
 const renderGoodsList = (list) => {
   let goodsList = list.map(item => renderGoodsItem(item));
-  document.querySelector('.goods-list').innerHTML = goodsList;
+  document.querySelector('.goods-list').innerHTML = goodsList.join('');
 }
 
 renderGoodsList(goods);

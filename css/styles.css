@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: max-content auto;
+    gap: 40px;
+}
+
+header {
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto max-content;
+}
+
+.title {
+    color: white;
+    padding: 10px;
+}
+
+.goods-list {
+    padding: 100px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.goods-item {
+    width: 200px;
+    height: 360px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.actions {
+    padding: 10px;
+}
+
+.add-button {
+    width:180px;
+    height: 38px;
+    background-color: #3CB371;
+}
+
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.basket-btn {
+    padding: 7px;
+    background-color: #778899;
+}

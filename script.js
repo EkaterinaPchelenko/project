@@ -5,8 +5,7 @@ const goods = [
   { title: 'Shoes', price: 2500, image: 'images/shoes.jpg' },
 ];
 
-const renderGoodsItem = (item) => {
-  const {title, price, image='images/default.jpg'} = item
+const renderGoodsItem = ({title, price, image='images/default.jpg'}) => {
   return `
     <div class="goods-item">
       <img src="${image}" alt="">
